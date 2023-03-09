@@ -1,0 +1,4 @@
+For this project I used elasticsearch v7.6.2 image in docker
+Set the IP of the elasticsearch container (docker inspect <container-id>) in elasticsearch-url variable located in application.properties
+Build and run the Dockerfile
+You can use postman to test the endpoint: http://localhost:8080/user (GET, POST, PUT)
